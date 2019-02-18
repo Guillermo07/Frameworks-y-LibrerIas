@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #f0c000;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-3 {
+        font-size: 120px;
+        font-family: "Tw Cen MT";
+      }
+    </style>
+    <filter id="filter" x="372.938" y="145.813" width="20.812" height="76.406" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="2.646" in="SourceAlpha"/>
+      <feFlood result="flood" flood-opacity="0.2"/>
+      <feComposite result="composite" operator="out" in2="blur"/>
+      <feOffset result="offset" dy="3"/>
+      <feComposite result="composite-2" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="multiply" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Mesa_de_trabajo_1" data-name="Mesa de trabajo 1">
+    <path id="Rectángulo_1_copia" data-name="Rectángulo 1 copia" class="cls-1" d="M372.942,145.821l19.671,7.691,1.13,68.7-20.8-7.345Z" transform="translate(-211)"/>
+    <path id="Rectángulo_1_copia_7" data-name="Rectángulo 1 copia 7" class="cls-2" d="M430.417,142.228l19.671,7.692,1.13,68.7-20.8-7.345Z" transform="translate(-211)"/>
+    <path id="Rectángulo_1_copia_6" data-name="Rectángulo 1 copia 6" class="cls-2" d="M344.287,177.7l19.542,4.87,1.176,43.625L344.292,219.5Z" transform="translate(-211)"/>
+    <path id="Rectángulo_1_copia_2" data-name="Rectángulo 1 copia 2" class="cls-2" d="M400.354,114.972l20.318,6.336,1.139,97.254-22.054-7.95Z" transform="translate(-211)"/>
+    <path id="Rectángulo_1_copia_4" data-name="Rectángulo 1 copia 4" class="cls-2" d="M459.132,131.482l19.729,6.208,1.762,76.382-21.437-9.653Z" transform="translate(-211)"/>
+    <text id="Caracas_Creativa_" data-name="Caracas Creativa " class="cls-3" transform="translate(12.647 272.838) scale(0.448)">Caracas Creativa </text>
+  </g>
+</svg>
