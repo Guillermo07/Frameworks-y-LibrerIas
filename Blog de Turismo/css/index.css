@@ -1,32 +1,54 @@
-.barra-superior{
-  min-height: 4rem;
-}
-div[class*="columna"]{
-  min-height: 50rem;
-}
-div[class*="bloque"]{
-  height: 25rem;
-}
-.columna-chat, .columna-news{
-  padding: 0 !important;
-}
-.contenedor-write-publicacion{
-  min-height: 7rem;
-}
-.contenedor-publicacion{
-  min-height: 17rem;
-  padding: 2rem;
-}
-.brand-logo{
-  width: 10%;
+.logo{
+  width: 25%;
   margin-top: 0.5rem;
 }
-.contenedor-noticias{
-  margin-top: 1rem;
-  min-height: 50rem;
-  padding: 0.5rem;
+
+.menu li:hover{
+  background: lightgray;
 }
-.responsive-img{
-  border: 0.6rem solid #ff8f00;
-  border-radius: 5px;
+
+.icon{
+  width: 50%;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+.contenido{
+  background: aliceblue;
+}
+
+.tur-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.art-img{
+  margin: 20px;
+  width: 50%;
+}
+
+.articulo{
+  text-align: justify;
+}
+
+.perfil{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 2rem;
+}
+
+@media (max-width:990px){
+  .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    margin-bottom: 0.5rem;
+  }
 }
